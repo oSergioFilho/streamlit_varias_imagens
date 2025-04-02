@@ -10,3 +10,43 @@ services:
    build: ./exe02
    ports:
     - "8502:8502"
+
+  exe03:
+    build: ./exe03
+    ports:
+      - "8503:8503"
+
+  exe04:
+    build: ./exe04
+    ports:
+      - "8504:8504"
+
+  exe05:
+    build: ./exe05
+    ports:
+    - "8505:8505"  
+
+  exe06:
+    build: ./exe06
+    ports:
+    - "8506:8506"  
+
+  exe07:
+    build: ./exe07
+    ports:
+    - "8507:8507"  
+
+  exe08:
+    build: ./exe08
+    ports:
+    - "8508:8508"  
+
+  exe09:
+    build: ./exe09
+    ports:
+      - "8509:8509"
+
+  exe10:
+    build: ./exe10
+    ports:
+      - "8510:8510"
