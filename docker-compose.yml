@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+  exe01:
+    build: ./exe01
+    ports:
+      - "8501:8501"
+
+  exe02:
+   build: ./exe02
+   ports:
+    - "8502:8502"
